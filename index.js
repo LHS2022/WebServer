@@ -1,7 +1,6 @@
 const express = require('express');
 const Metadata = require('./metadata.json');
 const app = express();
-require('./components/test').apply(app);
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
